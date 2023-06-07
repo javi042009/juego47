@@ -1,1 +1,1 @@
-# juego47
+# Clase-47

@@ -1,0 +1,35 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="p5.gif.min.js"></script>
+    <script src="matter.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+     const firebaseConfig = {
+  apiKey: "AIzaSyBnYeZLDvbnHjQbz3ieXJi4dsuTyUmFAVA",
+  authDomain: "juego-pelea.firebaseapp.com",
+  databaseURL: "https://juego-pelea-default-rtdb.firebaseio.com",
+  projectId: "juego-pelea",
+  storageBucket: "juego-pelea.appspot.com",
+  messagingSenderId: "704247215816",
+  appId: "1:704247215816:web:64e739df58fa7f16b017fd"
+};
+      // Inicia Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+      <script src="formulario.js"></script>
+      <script src="jugar.js"></script>
+      <script src="jugadores.js"></script>
+    </body>
+</html>
